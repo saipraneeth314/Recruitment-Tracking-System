@@ -1,0 +1,8 @@
+Flask
+Flask-CORS
+Flask-RESTful
+Flask-MySQLdb
+pymysql
+requests
+gunicorn
+pytest
