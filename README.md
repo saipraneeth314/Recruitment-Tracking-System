@@ -1,5 +1,5 @@
 ## Project Overview
-This is a **Job Portal** built using React.js for the frontend and Python (Flask) with MySQL (XAMPP) for the backend. 
+This is a **Job Portal** built using React.js for the Front end and Python (Fast API) with MySQL (XAMPP) for the Back end.
 The system allows recruiters to post jobs and candidates to apply for them.
 
 ## Tech Stack
