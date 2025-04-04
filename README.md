@@ -4,7 +4,7 @@ The system allows recruiters to post jobs and candidates to apply for them.
 
 ## Tech Stack
 - **Frontend:** React.js, Bootstrap, Axios
-- **Backend:** Flask (Python), MySQL (XAMPP)
+- **Backend:** FastAPI (Python), MySQL (XAMPP)
 - **Database:** MySQL
 - **API Testing:** Curl
 
