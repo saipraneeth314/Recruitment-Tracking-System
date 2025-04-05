@@ -1,5 +1,10 @@
+# This file manages the database connection.
+
+# create_engine → This function creates a connection to the database.
 from sqlalchemy import create_engine
+# declarative_base → This function is used to create the base class for defining models (tables).
 from sqlalchemy.ext.declarative import declarative_base
+# sessionmaker → This function is used to create database sessions, which allow us to interact with the database.
 from sqlalchemy.orm import sessionmaker
 
 # Replace 'your_password' with your MySQL password

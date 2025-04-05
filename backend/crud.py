@@ -1,3 +1,5 @@
+# Contains functions for performing CRUD operations (Create, Read, Update, Delete).
+
 from sqlalchemy.orm import Session
 import models, schemas
 
@@ -20,3 +22,7 @@ def create_job(db: Session, job: schemas.JobCreate):
 # Get all jobs
 def get_jobs(db: Session, skip: int = 0, limit: int = 10):
     return db.query(models.Job).offset(skip).limit(limit).all()
+
+# Retrieves a user by email.
+def get_user_by_email(db: Session, email: str):
+    return db.query(models.User).filter(models.User.email == email).first()
